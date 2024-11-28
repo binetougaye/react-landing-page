@@ -2,16 +2,25 @@ import React from "react";
 import { data } from "../../utils/data";
 export default function Card() {
     return (
-        <div className="grid grid-rows-2 gap-y-12 grid-cols-3 place-items-center mt-10 ">
+        <div className="grid grid-rows-2 gap-y-12 gap-x-14 grid-cols-3 place-content-center place-items-center mt-20 ">
             {data &&
                 data?.map((item, index) => (
                     <div className="flex gap-3" key={index}>
-                        <div className="flex justify-center items-center border rounded-full">
-                            <img src={item.img} alt="" className="w-100" />
+                        <div className="flex flex-shrink-0 justify-center items-center border w-[70px] h-[70px] rounded-full ">
+                            <img
+                                src={item.img}
+                                alt=""
+                                className="w-[24px] h-[24px]"
+                            />
                         </div>
+
                         <div>
-                            <p>{item.title} </p>
-                            <p>{item.text} </p>
+                            <p className="text-[#243e63] text-[24px] font-bold">
+                                {item.title}{" "}
+                            </p>
+                            <p className="text-[#7c8ba1] text-[16px] mt-5">
+                                {item.text}{" "}
+                            </p>
                         </div>
                     </div>
                 ))}
