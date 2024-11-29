@@ -7,7 +7,7 @@ export default function RightPart() {
             <h5 className="uppercase md:text-start text-center text-[16px] text-[#6415ff] font-bold">
                 Testimonials
             </h5>
-            <h1 className="md:text-[48px] text-[24px] md:text-start text-center font-bold mt-3 ">
+            <h1 className="md:text-[48px] text-[32px] md:text-start text-center font-bold mt-3 ">
                 <span className="text-[#243e63] font-bold">Our Clients</span>
                 <span className="text-[#6415ff] ms-2">Love Us.</span>
             </h1>

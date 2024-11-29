@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
     return (
-        <div className="bg-[#6415ff] mt-80  md:h-[50vh] h-[70vh] flex md:flex-row flex-col gap-32 justify-center items-center rounded-md">
+        <div className="bg-[#6415ff] md:mt-80 mt-40   md:h-[50vh] h-[70vh] flex md:flex-row flex-col gap-32 justify-center items-center rounded-md">
             <h1 className="text-[#f7fafc] text-center text-[30px]">
                 Developers all over the world are <br /> happily using Treact.
             </h1>
