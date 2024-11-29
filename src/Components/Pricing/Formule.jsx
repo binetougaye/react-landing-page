@@ -2,7 +2,7 @@ import React from "react";
 import { card } from "../../utils/data";
 export default function Formule() {
     return (
-        <div className="flex items-center mt-10 gap-10  justify-center">
+        <div className="flex md:flex-row flex-col items-center mt-10 gap-10  justify-center">
             {card &&
                 card?.map((item, index) => (
                     <div className={item.className} key={index}>

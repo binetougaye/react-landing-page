@@ -90,7 +90,7 @@ export const card = [
         text: "For Individuals",
         offre: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"],
         btnColor: "bg-custom-color px-12 hover:shadow-lg hover:scale-105 hover:origin-top-left  transition duration-150 ease-out hover:ease-in  uppercase text-[#f7fafc] rounded-full py-3",
-        className: "border-4 border-custom-rgb-1 text-center text-[#f7fafc] w-[384px] h-[607.5px] rounded-md shadow-md "
+        className: "md:border-4 border border-custom-rgb-1 text-center text-[#f7fafc] md:w-[384px] w-[100%] h-[607.5px] rounded-md shadow-md "
     },
     {
         title: "business",
@@ -100,7 +100,7 @@ export const card = [
         text: "For Small Businesses",
         offre: ["60 Templates", "15 Landing Pages", "22 Internal Pages", "Priority Assistance"],
         btnColor: "bg-custom-color-2 px-12 hover:scale-105 hover:origin-top-left transition duration-150 ease-out hover:ease-in  uppercase text-[#f7fafc] rounded-full py-3",
-        className: "border-4 border-custom-rgb-2 text-center text-[#f7fafc] w-[384px] h-[607.5px] rounded-md shadow-md"
+        className: "md:border-4 border border-custom-rgb-2 text-center text-[#f7fafc] md:w-[384px] w-[100%] h-[607.5px] rounded-md shadow-md"
     },
     {
         title: "Enterprise",
@@ -110,7 +110,7 @@ export const card = [
         text: "For Large Companies",
         offre: ["90 Templates", "27 Landing Pages", "37 Internal Pages", "Priority Assistance"],
         btnColor: "bg-custom-color-3 px-12 hover:scale-105 hover:origin-top-left transition duration-150 ease-out hover:ease-in  uppercase text-[#f7fafc] rounded-full py-3",
-        className: "border-4 border-custom-rgb-3 text-center text-[#f7fafc] w-[384px] h-[607.5px] rounded-md shadow-md"
+        className: "md:border-4 border border-custom-rgb-3 text-center text-[#f7fafc] md:w-[384px] w-[100%] h-[607.5px] rounded-md shadow-md"
     },
 
 

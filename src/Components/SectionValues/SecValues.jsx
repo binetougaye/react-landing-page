@@ -4,26 +4,27 @@ import { dataTwo } from "../../utils/data";
 
 export default function SecValues() {
     return (
-        <div className="flex justify-between mt-80">
+        <div className="flex md:flex-row flex-col-reverse  md:justify-between justify-center md:mt-80 mt-40">
             <div>
-                <h5 className="uppercase  text-[16px] text-[#6415ff] font-bold">
+                <h5 className="uppercase md:text-start text-center  md:mt-0 mt-10 text-[16px] text-[#6415ff] font-bold">
                     values
                 </h5>
-                <h1 className="text-[48px]  font-bold mt-3 ">
+                <h1 className="md:text-[48px] text-[32px] md:text-start text-center   font-bold mt-3 ">
                     <span className="text-[#243e63] font-bold">
                         We Always Abide by Our
                     </span>
                     <span className="text-[#6415ff] ms-2">Principles.</span>
                 </h1>
-                <p className="text-[18px] mt-4 text-[#7c8ba1]">
+                <p className="md:text-[18px] text-[14px] md:text-start text-center  mt-4 text-[#7c8ba1]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <div className="flex gap-10 mt-10">
+                <div className="flex md:flex-row flex-col  gap-10 mt-10">
                     {dataTwo.map((item, index) => (
-                        <div className="flex  gap-3" key={index}>
+                        <div
+                            className="flex md:flex-row flex-col md:justify-start justify-center md:items-start items-center   gap-3"
+                            key={index}
+                        >
                             <div>
                                 <p className={item.className}>
                                     <img
@@ -37,24 +38,24 @@ export default function SecValues() {
                                 </p>
                             </div>
                             <div>
-                                <p className="text-[#243e63]  text-[20px] font-bold">
+                                <p className="text-[#243e63] md:text-start  text-center text-[20px] font-bold">
                                     {item.title}
                                 </p>
-                                <p className="text-[#718096] font-[16px]">
+                                <p className="text-[#718096] md:text-start  text-center font-[16px]">
                                     {item.text}
                                 </p>
                             </div>
                         </div>
                     ))}
                 </div>
-                <div>
-                    <button className="bg-[#6415ff] mt-14 text-[#f7fafc] px-6 py-2 rounded-full">
+                <div className="md:flex md:justify-start md:items-start flex justify-center items-center">
+                    <button className="bg-[#6415ff]  mt-8 text-[#f7fafc] px-6 py-2 rounded-full">
                         Learn More
                     </button>
                 </div>
             </div>
             <div>
-                <img className="max-w-custom" src={illustration} alt="" />
+                <img className="" src={illustration} alt="" />
             </div>
         </div>
     );

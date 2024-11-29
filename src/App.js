@@ -24,7 +24,7 @@ function App() {
   };
   return (
     <div>
-      <div className="px-16 py-8">
+      <div className="md:px-16 md:py-8 px-8 py-8">
         <VisibilitySlide duration={1000} triggerOnce onVisibilityChange={handleVisibilityChange} >
           <Navbar />
           <Header />

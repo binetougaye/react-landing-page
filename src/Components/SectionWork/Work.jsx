@@ -4,7 +4,7 @@ import RightPart from "./RightPart";
 
 export default function Work() {
     return (
-        <div className="flex mt-80 items-center">
+        <div className="flex md:mt-80 mt-40 md:flex-row  flex-col-reverse items-center">
             <LeftPart />
             <RightPart />
         </div>
